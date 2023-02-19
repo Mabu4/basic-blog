@@ -1,0 +1,35 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  .navigation {
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin-right: var(--margin-40);
+        a {
+          color: var(--text-color-main);
+          text-decoration: none;
+          &:hover {
+            border-bottom: 2px solid var(--theme-color);
+          }
+        }
+      }
+    }
+    button {
+      background-color: unset;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}

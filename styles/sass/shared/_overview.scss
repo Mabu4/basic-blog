@@ -1,0 +1,15 @@
+.overview-section {
+  display: flex;
+  gap: 40px;
+  justify-content: stretch;
+  .left-section {
+    width: 50%;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+  .right-section {
+    width: 50%;
+    padding: 16px;
+  }
+}
