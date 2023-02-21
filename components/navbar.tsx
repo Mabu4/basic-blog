@@ -11,7 +11,7 @@ const NavbarComponent = ({ colorTheme, setColorTheme }: property) => {
     setColorTheme(colorTheme === "light" ? "dark" : "light");
   };
   return (
-    <div className="basic-container navigation-container">
+    <div className="basic-container navigation-container container">
       <img src="" alt="logo" />
       <nav className="navigation">
         <ul>

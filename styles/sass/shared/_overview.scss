@@ -1,15 +1,15 @@
-.overview-section {
+.overview-header-first {
   display: flex;
-  gap: 40px;
-  justify-content: stretch;
+  margin-bottom: 4rem;
   .left-section {
-    width: 50%;
+    width: 45%;
+    margin-right: 0;
     background-color: transparent;
     box-shadow: none;
     padding: 0;
   }
   .right-section {
-    width: 50%;
+    width: 55%;
     padding: 16px;
   }
 }
