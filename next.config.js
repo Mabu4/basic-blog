@@ -1,10 +1,11 @@
-require("dotenv").config({ path: "mongodb.env" });
+require("dotenv").config({ path: "api-credentials.env" });
 
 module.exports = {
   env: {
-    MONGODB_URI: process.env.MONGODB_URI,
-    MONGODB_NAME: process.env.MONGODB_NAME,
-    MONGODB_PASSWORD: process.env.MONGODB_PASSWORD,
+    URI: process.env.URI,
+    NAME: process.env.NAME,
+    PASSWORD: process.env.PASSWORD,
+    API_KEY: process.env.API_KEY
   },
   reactStrictMode: true,
 };
