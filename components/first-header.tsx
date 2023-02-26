@@ -14,11 +14,11 @@ const FirstHeader = () => {
             <h4>Travel</h4>
           </Link>
         </div>
-        <h2 className="article-title">
+        <h2 className="article-title-big">
           <Link href="blog/thema/artikel">Die 10 beliebtesten Vogelarten</Link>
         </h2>
         <div className="post-description">
-          <p>
+          <p className="post-description-text-big">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
             corporis totam. Distinctio quod minima nulla officia saepe suscipit
             beatae quo illo. Ipsa esse architecto deleniti eaque quo unde
@@ -36,7 +36,9 @@ const FirstHeader = () => {
         </div>
       </div>
       <div className="basic-container right-section">
-        <Image className="basic-image" alt="" src={bird}></Image>
+        <div className="img-wrapper">
+          <Image className="basic-image" alt="" src={bird}></Image>
+        </div>
       </div>
     </article>
   );

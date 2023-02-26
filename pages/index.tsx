@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <OverviewComponent />
+        <OverviewComponent type={"first"} />
       </main>
     </>
   );
