@@ -1,0 +1,47 @@
+.themes {
+  min-height: 80vh;
+  h1 {
+    padding-top: var(--margin-40);
+    font-size: var(--font-6);
+    color: var(--text-color-dark);
+    text-align: center;
+  }
+  .themes-wrapper {
+    margin-left: -40px;
+    .themes-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .theme-box-wrapper {
+        flex: 1 0 25%;
+        .theme-box {
+          min-width: 210px;
+          padding: 1.25rem;
+          margin: 40px 0 0 40px;
+          h2 {
+            margin-bottom: 0.7rem;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+          }
+          .post-count {
+            margin: 0;
+            color: var(--text-color-light);
+            font-size: var(--font-1);
+          }
+        }
+        @media (max-width: 1200px) {
+          flex: 1 0 33.333333333333%;
+          max-width: 33.3333333333333%;
+        }
+        @media (max-width: 780px) {
+          flex: 1 0 50%;
+          max-width: 50%;
+        }
+        @media (max-width: 600px) {
+          flex: 1 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
