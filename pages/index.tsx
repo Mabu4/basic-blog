@@ -1,6 +1,5 @@
 import Head from "next/head";
 import OverviewComponent from "@/components/overview";
-import Image from "next/image";
 
 export default function Home() {
   return (

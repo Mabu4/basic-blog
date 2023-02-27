@@ -1,13 +1,14 @@
 .themes {
-  min-height: 80vh;
+  min-height: calc(100vh - 244px);
   h1 {
-    padding-top: var(--margin-40);
+    padding-top: 1.5rem;
     font-size: var(--font-6);
     color: var(--text-color-dark);
     text-align: center;
   }
   .themes-wrapper {
     margin-left: -40px;
+    margin-bottom: 4rem;
     .themes-list {
       display: flex;
       flex-direction: row;
