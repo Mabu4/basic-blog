@@ -1,0 +1,62 @@
+.authors {
+  min-height: calc(100vh - 244px);
+  h1 {
+    padding-top: 1.5rem;
+    font-size: var(--font-6);
+    color: var(--text-color-dark);
+    text-align: center;
+  }
+  .themes-wrapper {
+    margin-left: -2.5rem;
+    margin-bottom: 4rem;
+    .themes-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .theme-box-wrapper {
+        flex: 1 0 50%;
+        max-width: 50%;
+        .theme-box {
+          display: flex;
+          padding: 1.25rem;
+          gap: 1rem;
+          margin: 40px 0 0 40px;
+          img {
+            width: 160px;
+            height: 160px;
+          }
+          h2 {
+            margin-bottom: 1rem;
+            margin-top: 0;
+            font-size: 1.2rem;
+            a {
+              text-decoration: none !important;
+              cursor: default !important;
+            }
+          }
+          .description {
+            margin: 0;
+            color: var(--text-color-light);
+            font-size: var(--font-1);
+          }
+        }
+
+        @media (max-width: 1000px) {
+          .theme-box {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .img-wrapper {
+              width: fit-content;
+              height: fit-content;
+            }
+          }
+        }
+        @media (max-width: 780px) {
+          flex: 1 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
