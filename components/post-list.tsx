@@ -1,4 +1,3 @@
-import { DUMMY_DATA } from "@/dummy-data";
 import Link from "next/link";
 import Image from "next/image";
 import bird from "@/public/images/bird1.jpg";
@@ -8,14 +7,9 @@ import { TbCalendarEvent } from "react-icons/tb";
 import { BiTimeFive } from "react-icons/bi";
 
 const PostList = () => {
-  console.log(DUMMY_DATA);
   return (
     <div className="post-list">
       <div className="left-container">
-        {/* {DUMMY_DATA &&
-          DUMMY_DATA.map((data) => {
-            return <div key={data.id}>{data.title}</div>;
-          })} */}
         <article className="basic-container">
           <div className="left-section">
             <div className="img-wrapper">
