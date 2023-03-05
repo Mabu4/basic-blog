@@ -7,7 +7,6 @@ interface property {
 }
 
 const OverviewComponent = ({ type }: property) => {
-  console.log(process.env.API_KEY);
   return (
     <>
       <div className="page-wrapper">

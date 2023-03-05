@@ -11,7 +11,7 @@ type Blog @model {
 }
 
 type Post @model {
-  id: ID!
+  id: ID! 
   title: String!
   description: String!
   content: String!

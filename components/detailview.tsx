@@ -125,12 +125,15 @@ const DetailviewComponent = ({ id }: property) => {
               <div className="line-4 line"></div>
               <h4 className="key-text">Key Learnings</h4>
               <div className="content-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Totam laboriosam, dolorem ipsam ex deleniti ullam eaque harum,
-                  maxime, mollitia necessitatibus nemo! Tempore reprehenderit,
-                  numquam deleniti ex sapiente sed sint mollitia.
-                </p>
+                <div className="text-section">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Totam laboriosam, dolorem ipsam ex deleniti ullam eaque
+                    harum, maxime, mollitia necessitatibus nemo! Tempore
+                    reprehenderit, numquam deleniti ex sapiente sed sint
+                    mollitia.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="subheading">

@@ -21,9 +21,14 @@
           padding: 1.25rem;
           gap: 1rem;
           margin: 40px 0 0 40px;
-          img {
-            width: 160px;
-            height: 160px;
+          a {
+            flex-shrink: 0;
+            .img-wrapper {
+              img {
+                width: 160px;
+                height: 160px;
+              }
+            }
           }
           h2 {
             margin-bottom: 1rem;

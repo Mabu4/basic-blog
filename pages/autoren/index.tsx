@@ -26,9 +26,9 @@ const Authors = () => {
                   </Link>
                   <div className="theme-info">
                     <h2 className="title-small">
-                      <Link href="">Züchten</Link>
+                      <Link href="">Max Budziat</Link>
                     </h2>
-                    <p className="description">7 Artikel</p>
+                    <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nisi ipsa, minima iusto ipsam magni itaque fugit inventore impedit, eos libero culpa? Molestias quo illum commodi ea delectus, at ipsa.</p>
                   </div>
                 </div>
               </div>

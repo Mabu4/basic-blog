@@ -42,12 +42,12 @@
           border-bottom: 1.25px solid var(--border-color);
         }
         ol {
-          counter-reset: section; /* Creates a new instance of the section counter with each ol element */
+          // counter-reset: section; /* Creates a new instance of the section counter with each ol element */
           list-style-type: none;
         }
         li::before {
-          counter-increment: section; /* Increments only this instance of the section counter */
-          content: counters(section, ".") ". "; /* Combines the values of all instances of the section counter, separated by a period */
+          // counter-increment: section; /* Increments only this instance of the section counter */
+          // content: counters(section, ".") ". "; /* Combines the values of all instances of the section counter, separated by a period */
         }
         .list {
           margin: 1rem 0 -0.65rem 0;
@@ -144,9 +144,6 @@
         }
         .content-box {
           padding: 1rem 1.5rem;
-          p {
-            margin: 0;
-          }
         }
       }
     }

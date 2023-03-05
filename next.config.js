@@ -5,7 +5,7 @@ module.exports = {
     URI: process.env.URI,
     NAME: process.env.NAME,
     PASSWORD: process.env.PASSWORD,
-    API_KEY: process.env.API_KEY
+    API_KEY: process.env.API_KEY,
   },
   reactStrictMode: true,
 };
