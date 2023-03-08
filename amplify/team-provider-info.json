@@ -15,8 +15,8 @@
       "api": {
         "blog": {}
       },
-      "auth": {
-        "blogdffb4325": {}
+      "storage": {
+        "s3d1d78b21": {}
       }
     }
   }

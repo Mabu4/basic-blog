@@ -42,7 +42,7 @@ const DetailviewComponent = ({ id }: property) => {
               <span className="box author-box">
                 <MdPersonOutline className="icon" />
                 <address>
-                  <Link rel="author" href="/author">
+                  <Link rel="author" href="/autoren">
                     Max Budziat
                   </Link>
                 </address>

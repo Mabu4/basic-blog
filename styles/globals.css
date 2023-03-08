@@ -146,6 +146,15 @@ a:hover {
   text-underline-offset: 4px;
 }
 
+.inline-link {
+  color: var(--theme-color);
+  text-decoration: none !important;
+}
+
+.inline-link:hover {
+  color: #82cf5d;
+}
+
 .basic-container {
   background-color: var(--card-background);
   margin-top: var(--margin-40);
