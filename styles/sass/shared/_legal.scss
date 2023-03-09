@@ -1,0 +1,21 @@
+.legal {
+  .title-medium {
+    padding-top: 1rem;
+    margin-top: 0;
+    &:first-child {
+      margin-top: 0;
+      padding-top: 0rem;
+    }
+  }
+  .title-small {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  p,
+  ul {
+    color: var(--text-color-main);
+    line-height: 1.8;
+    font-size: 1.125rem;
+    letter-spacing: 0.4px;
+  }
+}
