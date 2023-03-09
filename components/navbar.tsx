@@ -22,7 +22,8 @@ const NavbarComponent = ({ colorTheme, setColorTheme }: property) => {
   };
   return (
     <div className="page-wrapper">
-      <div className="basic-container navigation-container container" id="top">
+      <div className="top-setter" id="top"></div>
+      <div className="basic-container navigation-container container">
         <Link className="logo" href="/">
           <Image
             src={colorTheme === "light" ? logoDark : logoLight}

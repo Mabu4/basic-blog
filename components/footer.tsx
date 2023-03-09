@@ -8,13 +8,13 @@ const FooterComponent = () => {
       <div className="middle-section">
         <ul>
           <li>
-            <Link href="/agb">AGB</Link>
+            <Link href="/rechtliches#agb">AGB</Link>
           </li>
           <li>
-            <Link href="impressum">Impressum</Link>
+            <Link href="/rechtliches">Impressum</Link>
           </li>
           <li>
-            <Link href="kontakt">Kontakt</Link>
+            <Link href="/rechtliches#datenschutz">Datenschutz</Link>
           </li>
         </ul>
       </div>
