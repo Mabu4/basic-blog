@@ -7,8 +7,7 @@ import {
 } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
-import logoLight from "@/public/images/logo-bird-light1.png";
-import logoDark from "@/public/images/logo-bird-dark1.png";
+import logo from "@/public/images/blue-manta.png";
 
 interface property {
   colorTheme: String;
@@ -25,13 +24,9 @@ const NavbarComponent = ({ colorTheme, setColorTheme }: property) => {
       <div className="top-setter" id="top"></div>
       <div className="basic-container navigation-container container">
         <Link className="logo" href="/">
-          <Image
-            src={colorTheme === "light" ? logoDark : logoLight}
-            alt="logo"
-            className="logo"
-          />
+          <Image src={logo} alt="logo" className="logo" />
           <h1>
-            Bird <span>Side</span>
+            Blue <span>Manta</span>
           </h1>
         </Link>
         <nav className="navigation desktop-nav">

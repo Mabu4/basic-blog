@@ -5,9 +5,8 @@ const Legal = () => {
         <h2 className="title-medium">Impressum</h2>
         <div>
           <h3 className="title-small">Angaben gemäß § 5 TMG:</h3>
-
           <p>
-            Blue Dive <br /> Poststraße 32 <br /> 38440 Wolfsburg
+            Blue Manta <br /> Poststraße 32 <br /> 38440 Wolfsburg
           </p>
           <p>
             Vertreten durch: <br /> Maximilian Budziat
@@ -27,10 +26,9 @@ const Legal = () => {
           <h3 className="title-small">
             1. Geltungsbereich und Vertragspartner
           </h3>
-
           <p>
             Die nachfolgenden Allgemeinen Geschäftsbedingungen gelten für die
-            Nutzung des Blogs Blue Dive (im Folgenden Blog genannt) und für
+            Nutzung des Blogs Blue Manta (im Folgenden Blog genannt) und für
             sämtliche Dienstleistungen und Angebote, die im Rahmen des Blogs
             erbracht werden. Betreiber des Blogs ist:
           </p>

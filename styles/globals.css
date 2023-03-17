@@ -24,11 +24,11 @@
   --border-color: #dadce5; /*input fields*/
 
   /*-----theme color-------*/
-  --theme-color: rgb(101, 180, 64);
+  --theme-color: #0859c4;
 
   /*-----Hover----- */
   --tag-hover: #e8e8e8;
-  --button-hover: rgb(116, 184, 84);
+  --button-hover: #004aad;
 
   /*----Font size-----*/
   --font-1: 0.9rem;
