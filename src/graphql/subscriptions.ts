@@ -8,18 +8,21 @@ export const onCreateBlog = /* GraphQL */ `
       id
       theme
       description
-      image
+      imageALT
+      imageSRC
       posts {
         items {
           id
           title
           description
           content
-          image
+          imageSRC
+          imageALT
           theme
           author
           pubDate
           readingTime
+          contentTable
           createdAt
           updatedAt
           blogPostsId
@@ -37,18 +40,21 @@ export const onUpdateBlog = /* GraphQL */ `
       id
       theme
       description
-      image
+      imageALT
+      imageSRC
       posts {
         items {
           id
           title
           description
           content
-          image
+          imageSRC
+          imageALT
           theme
           author
           pubDate
           readingTime
+          contentTable
           createdAt
           updatedAt
           blogPostsId
@@ -66,18 +72,21 @@ export const onDeleteBlog = /* GraphQL */ `
       id
       theme
       description
-      image
+      imageALT
+      imageSRC
       posts {
         items {
           id
           title
           description
           content
-          image
+          imageSRC
+          imageALT
           theme
           author
           pubDate
           readingTime
+          contentTable
           createdAt
           updatedAt
           blogPostsId
@@ -96,16 +105,19 @@ export const onCreatePost = /* GraphQL */ `
       title
       description
       content
-      image
+      imageSRC
+      imageALT
       theme
       author
       pubDate
       readingTime
+      contentTable
       blog {
         id
         theme
         description
-        image
+        imageALT
+        imageSRC
         posts {
           nextToken
         }
@@ -125,16 +137,19 @@ export const onUpdatePost = /* GraphQL */ `
       title
       description
       content
-      image
+      imageSRC
+      imageALT
       theme
       author
       pubDate
       readingTime
+      contentTable
       blog {
         id
         theme
         description
-        image
+        imageALT
+        imageSRC
         posts {
           nextToken
         }
@@ -154,16 +169,19 @@ export const onDeletePost = /* GraphQL */ `
       title
       description
       content
-      image
+      imageSRC
+      imageALT
       theme
       author
       pubDate
       readingTime
+      contentTable
       blog {
         id
         theme
         description
-        image
+        imageALT
+        imageSRC
         posts {
           nextToken
         }
