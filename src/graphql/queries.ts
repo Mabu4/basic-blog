@@ -15,6 +15,7 @@ export const getBlog = /* GraphQL */ `
           id
           title
           description
+          metaDescription
           content
           imageSRC
           imageALT
@@ -23,6 +24,7 @@ export const getBlog = /* GraphQL */ `
           pubDate
           readingTime
           contentTable
+          relatedPosts
           createdAt
           updatedAt
           blogPostsId
@@ -63,6 +65,7 @@ export const getPost = /* GraphQL */ `
       id
       title
       description
+      metaDescription
       content
       imageSRC
       imageALT
@@ -71,6 +74,7 @@ export const getPost = /* GraphQL */ `
       pubDate
       readingTime
       contentTable
+      relatedPosts
       blog {
         id
         theme
@@ -100,6 +104,7 @@ export const listPosts = /* GraphQL */ `
         id
         title
         description
+        metaDescription
         content
         imageSRC
         imageALT
@@ -108,6 +113,7 @@ export const listPosts = /* GraphQL */ `
         pubDate
         readingTime
         contentTable
+        relatedPosts
         blog {
           id
           theme

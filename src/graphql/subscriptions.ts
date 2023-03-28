@@ -15,6 +15,7 @@ export const onCreateBlog = /* GraphQL */ `
           id
           title
           description
+          metaDescription
           content
           imageSRC
           imageALT
@@ -23,6 +24,7 @@ export const onCreateBlog = /* GraphQL */ `
           pubDate
           readingTime
           contentTable
+          relatedPosts
           createdAt
           updatedAt
           blogPostsId
@@ -47,6 +49,7 @@ export const onUpdateBlog = /* GraphQL */ `
           id
           title
           description
+          metaDescription
           content
           imageSRC
           imageALT
@@ -55,6 +58,7 @@ export const onUpdateBlog = /* GraphQL */ `
           pubDate
           readingTime
           contentTable
+          relatedPosts
           createdAt
           updatedAt
           blogPostsId
@@ -79,6 +83,7 @@ export const onDeleteBlog = /* GraphQL */ `
           id
           title
           description
+          metaDescription
           content
           imageSRC
           imageALT
@@ -87,6 +92,7 @@ export const onDeleteBlog = /* GraphQL */ `
           pubDate
           readingTime
           contentTable
+          relatedPosts
           createdAt
           updatedAt
           blogPostsId
@@ -104,6 +110,7 @@ export const onCreatePost = /* GraphQL */ `
       id
       title
       description
+      metaDescription
       content
       imageSRC
       imageALT
@@ -112,6 +119,7 @@ export const onCreatePost = /* GraphQL */ `
       pubDate
       readingTime
       contentTable
+      relatedPosts
       blog {
         id
         theme
@@ -136,6 +144,7 @@ export const onUpdatePost = /* GraphQL */ `
       id
       title
       description
+      metaDescription
       content
       imageSRC
       imageALT
@@ -144,6 +153,7 @@ export const onUpdatePost = /* GraphQL */ `
       pubDate
       readingTime
       contentTable
+      relatedPosts
       blog {
         id
         theme
@@ -168,6 +178,7 @@ export const onDeletePost = /* GraphQL */ `
       id
       title
       description
+      metaDescription
       content
       imageSRC
       imageALT
@@ -176,6 +187,7 @@ export const onDeletePost = /* GraphQL */ `
       pubDate
       readingTime
       contentTable
+      relatedPosts
       blog {
         id
         theme
